@@ -1,4 +1,4 @@
-@Library('piper-lib-os') _
-
-piperPipeline script: this
+stage('build') {
+    mtaBuild script: this
+}
 
